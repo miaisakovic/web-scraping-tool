@@ -49,7 +49,7 @@ pip3.9 install lxml
 ### After Installing Initial Requirements
 Clone this repository:
 ```
-$ git clone <snake-game URL>
+$ git clone <web-scraping-tool URL>
 ``` 
 When asked to enter credentials, input your username and personal access token.
 
