@@ -56,5 +56,5 @@ When asked to enter credentials, input your username and personal access token.
 ## How to Use This Web Scraping Tool
 Each time you would like to use this web scraping tool, run the following command:
 ```
-$ python3.9 <file path>
+$ python3.9 <relative path to uw_news.py>
 ```
