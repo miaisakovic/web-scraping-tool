@@ -34,7 +34,7 @@ $ python3.9 --version
 If pip has not been previously installed, run the following:
 ```
 $ python3.9 -m ensurepip --upgrade
-$ pip --version
+$ pip3.9 --version
 ```
 
 ### After Installing Initial Requirements
