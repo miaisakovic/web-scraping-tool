@@ -20,7 +20,7 @@ $ python3.9 --version
 If pip has not been previously installed, run the following:
 ```
 $ sudo apt-get install python3-pip 
-$ pip --version
+$ pip3 --version
 ```
 
 ### For MacOS
@@ -34,7 +34,7 @@ $ python3.9 --version
 If pip has not been previously installed, run the following:
 ```
 $ python3.9 -m ensurepip --upgrade
-$ pip3.9 --version
+$ pip3 --version
 ```
 
 ### After Installing Initial Requirements
@@ -46,9 +46,9 @@ When asked to enter credentials, input your username and personal access token.
 
 If the libraries, BeautifulSoup 4, lxml, or Requests, have not been installed, run the following:
 ```
-pip3.9 install beautifulsoup4
-pip3.9 install lxml
-pip3.9 install requests
+pip3 install beautifulsoup4
+pip3 install lxml
+pip3 install requests
 ```
 
 ## How to Use This Web Scraping Tool
