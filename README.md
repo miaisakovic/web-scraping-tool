@@ -40,7 +40,7 @@ $ pip3 --version
 ### After Installing Initial Requirements
 Clone this repository:
 ```
-$ git clone <web-scraping-tool URL>
+$ git clone https://github.com/miaisakovic/web-scraping-tool.git
 ``` 
 When asked to enter credentials, input your username and personal access token.
 
