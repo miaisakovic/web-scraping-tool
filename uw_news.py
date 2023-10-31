@@ -8,8 +8,11 @@ soup = BeautifulSoup(html_text, 'lxml')
 # Find most recent news articles on the website
 news = soup.find_all('div', class_='uw_ct_story')
 
-# Create a boolean for when to show the news
+# Boolean variable for when to show the news
 show_news = False
+
+# Boolean variable for if there is recent news on the pandemic
+found_recent_news = False
 
 for article in news:
     # Find the title of the article
@@ -37,11 +40,11 @@ for article in news:
         print(f'Read more: https://uwaterloo.ca{link}')
         print('')
         show_news = False
-        printed_news = True
+        found_recent_news = True
 
 # If key words are not in any of the recent news articles, output a message
-if not printed_news:
-    print('\nThere is no recent UW news concerning COVID-19\n')
+if not found_recent_news:
+    print('\nThere is no recent UWaterloo news concerning COVID-19.\n')
 
-print('See other UW news articles at: https://uwaterloo.ca/news/home')
+print('See other UWaterloo news articles at: https://uwaterloo.ca/news/home')
 print('')
